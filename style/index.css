@@ -1,1 +1,25 @@
-/* index.css */
+@import url("normalize.css");
+@import url("base.css");
+@import url("theme.css");
+
+.appHeader {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
